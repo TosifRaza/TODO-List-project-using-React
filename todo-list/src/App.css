@@ -1,0 +1,22 @@
+h3{
+   font-weight: 300;
+}
+input {
+   width: 100%;
+}
+button{
+   width: 123px;
+}
+.content{
+   width: 90%;
+}
+.my-row{
+   margin: 10px;
+   margin-bottom: 20px;
+}
+.Items{
+   text-align: start;
+}
+.Item-individual{
+   margin-bottom: 10px;
+}

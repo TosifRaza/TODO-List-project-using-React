@@ -1,4 +1,4 @@
 function AppName(){
-   return <h1>TODO List</h1>
+   return <h3>TODO List</h3>
 }
 export default AppName

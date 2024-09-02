@@ -5,16 +5,19 @@ import AppName from './components/AppName';
 import Header from './components/Header';
 import Item1 from './components/Item1';
 import Item2 from './components/Item2';
+import './App.css';
 
 function App() {
 
   return <center class="TODO Container">
-    <AppName/>
-    <div class="container text-center">
-      <Header/>
-      <Item1/>
-      <Item2/>  
-    </div>
+      <AppName/>
+      <div className="content">
+        <Header/>
+        <div className='Items'>
+          <Item1/>
+          <Item2/> 
+        </div> 
+      </div>
 
 </center>
 
